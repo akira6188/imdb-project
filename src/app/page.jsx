@@ -4,5 +4,5 @@ import { Inter } from '@next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  return <h1 className="bg-gray-600">Hello</h1>;
+  return <h1 className="text-red-200">Home</h1>;
 }
